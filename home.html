@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Welcome Page</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+		<!-- Bootstrap core CSS-->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!--PNotify-->
+		<link href="vendor/pnotify/dist/pnotify.css" rel="stylesheet">
+		<link href="vendor/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+		<!-- Custom fonts for this template-->
+		<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+		<!-- Custom styles for this template-->
+		<link href="css/sb-admin.css" rel="stylesheet">
+		<style type="text/css">
+		table {
+			/*text-align: center;*/
+			/*margin-top: 5%;*/
+		}
+		.table td {
+			border-top: none;
+			vertical-align: middle;
+		}
+		/*.table td label:hover {
+			color:  #88cc03;
+			cursor: pointer;
+		}*/
+		.img_style img {
+			border: 5px solid;
+			border-color: #dfdfdf;
+			padding: 50px;
+			box-shadow: 0px 1px 10px 17px black;
+		}
+		.img_style {
+			text-align: center;
+		}
+		table label {
+			color:  white;
+			font-weight: bold;
+			font-family: 'new times roman';
+			font-size: 25px;
+			/*white-space: nowrap;*/
+		}
+		.style_left {
+			text-align: right;
+			width:  33.33;
+		}
+		.style_right {
+			text-align: left;
+			width:  33.33;
+		}
+		caption {
+			color: #fffff0;
+			text-align: center;
+			caption-side: top;
+			padding-bottom: 100px;
+		}
+		#span_date {
+			font-size: 20px;
+			font-weight: bold;
+		}
+		footer {
+			margin-bottom: 1px;
+		}
+		label a {
+			color: white;
+		}
+		label a:hover {
+			color:  #88cc03;
+			cursor: pointer;
+		}
+		</style>
+	</head>
+	<body style="background-color: #032e15;">
+		<!-- <div>
+																																																																					
+		</div> -->
+		<table class="table">
+			<caption><h2>Online Systems</h2>
+			<span style="float: right;" id="span_date">00:00:00 XX</span>
+			</caption>
+			<tr>
+				<td class="style_left" style="border-top: 1px solid #ffffff5c;">
+					<label><a href="https://uds.edu.gh" target="_blank" title="Click to visit UDS Website">Website</a></label>
+				</td>
+				<td class="img_style" rowspan="3">
+					<img class="align-self-center rounded-circle mr-3" src="images/uds_logo.png">
+				</td>
+				<td class="style_right" style="border-top: 1px solid #ffffff5c;">
+					<label><a href="https://sisu.uds.edu.gh" target="_blank" title="Click to open SISU">Student Information Management System</a></label>
+				</td>
+			</tr>
+			<tr>
+				<td class="style_left" style="border-top: 1px solid #ffffff5c;">
+					<label style="margin-right: 100px;"><a href="https://soms.uds.edu.gh" target="_blank" title="Click to open SOMS">Smart Office Management System</a></label>
+				</td>
+				<td class="style_right"style="border-top: 1px solid #ffffff5c;">
+					<label style="margin-left: 100px;">Payments System</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="style_left" style="border-top: 1px solid #ffffff5c;">
+					<label><a href = "https://jobs.uds.edu.gh" target="_blank" title="Click to open Jobs Applications">Jobs Application</a></label>
+				</td>
+				<td class="style_right" style="border-top: 1px solid #ffffff5c;">
+					<label><a href = "https://admissions.uds.edu.gh" target="_blank" title="Click to open Admissions">Admissions System</a></label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="3" style="text-align: center;">
+					<label>UNIVERSITY FOR DEVELOPMENT STUDIES</label><br>
+					<span style="color: #88cc03">Knowledge For Service</span>
+				</td>
+			</tr>
+		</tr>
+	</table>
+</body>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+		})
+			setInterval(timer, "1000");
+function timer () {
+var cur_date = new Date();
+$("#span_date").html(cur_date.toLocaleTimeString());
+}
+</script>
+</html>

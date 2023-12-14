@@ -1,0 +1,50 @@
+.row {
+    width: 100%;
+}
+
+.row_ {
+    color: black;
+}
+
+.row__ {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header {
+    text-align: center;
+    color: #086b08;
+    width: 100%;
+}
+
+#info {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.con_title,
+title,
+.con_name,
+name,
+.con_facname {
+    text-transform: lowercase;
+    text-transform: uppercase;
+}
+
+.profile_label {
+    color: #086b08;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.profile_data {
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.modal-lg {
+    max-width: 950px;
+}

@@ -1,0 +1,103 @@
+#ol {
+    list-style: none;
+    display: -webkit-flex;
+    border: 1px solid gray;
+    width: fit-content;
+    position: relative;
+    border-radius: 20px;
+    background-color: #fff;
+    float: center;
+    box-shadow: 2px 2px grey;
+    height: 35px;
+    margin-right: 15%;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background-color: #4a7b47;
+    color: white;
+}
+
+#ol li {
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: 1px solid;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#ol li:hover {
+    border-bottom: 5px solid green;
+
+}
+
+.activeTab {
+    border-bottom: 5px solid green;
+}
+
+._card-header {
+    background-color: rgb(12, 60, 29);
+    padding: 10px;
+}
+.profile_label {
+    color: #086b08;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.profile_data {
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+#banner {
+        position: absolute;
+        /*top: 15%;*/
+        margin-top: 20%;
+        background-attachment: fixed;
+        left: 20%;
+        color: red;
+        font-size: 100px;
+        opacity: 0.5;
+        pointer-events: none;
+        -webkit-transform: rotate(-40deg);
+        -moz-transform: rotate(-40deg);
+}
+
+#letter_banner {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: red;
+    font-size: 100px;
+    opacity: 0.5;
+    pointer-events: none;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+}
+
+#intro_letter_banner {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: red;
+    font-size: 100px;
+    opacity: 0.5;
+    pointer-events: none;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+}
+
+#con_letter_banner {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: red;
+    font-size: 100px;
+    opacity: 0.5;
+    pointer-events: none;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+}

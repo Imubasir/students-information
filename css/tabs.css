@@ -1,0 +1,32 @@
+.head_nav {
+        border-radius: 2px;
+        background-color: #cccdcd;
+        width: 100%;
+        border-bottom: 2px solid;
+      }
+
+      .head_nav li{
+        display: inline-block;
+        padding-right: 10px;
+        border: 1px solid #afb0b0; 
+        padding: 10px;
+        border-bottom: none;
+        background-color: #babfbc;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+      }
+
+      .head_nav :hover {
+        background-color: #539a6f;
+      }
+
+      .head_nav a {
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .head_nav .active {
+        background-image: linear-gradient(180deg, #505e52, #65cb6c);
+      }

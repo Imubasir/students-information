@@ -1,0 +1,25 @@
+.style1 {
+	font-family: 'Bodoni MT';
+	font-style: italic;
+	/*font-size: 100px;*/
+}
+
+.style2 {
+	font-family: 'Script MT';
+	font-style: italic;
+	/*font-size: 32px;*/
+}
+
+.style3 {
+	margin-top: -2px;
+	font-family: 'New Times Roman';
+	font-style: italic;
+}
+
+.style4 {
+	font-weight: bold;
+	font-size:  17px;
+	float: right;
+	margin-right: 90px;
+	margin-top: -25px;
+}

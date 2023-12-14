@@ -1,0 +1,170 @@
+.modal-lg {
+    max-width: 950px;
+}
+
+.trans_header {
+    color: #0B6F10;
+    text-align: center;
+    line-height: 1;
+    border-bottom: 2px solid;
+    height: 100px !important;
+}
+
+header {
+    width: 100%;
+} 
+
+.inner_tbl td{
+    /*vertical-align: top;*/
+    border: none;
+    padding: 0;
+    /*border-top: 1px solid #dee2e6;*/
+}
+
+.table .inner_thead th {
+    border-top: none;
+    vertical-align: bottom;
+    padding: 0;
+    border-bottom: 2px solid #181819;
+}
+
+.profile_label {
+    color: #0B6F10;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    width: 20%;
+}
+
+.profile_data {
+    color: black;
+    text-transform: uppercase;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+#trans_table {
+    border-color: black;
+    border-bottom: 2px solid #000000;
+}
+
+#trans_table .table thead th {
+    border-bottom: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inner_table {
+    width: 100%;
+}
+
+.repeat_header {
+    border-bottom: 2px solid black;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+@media print {
+    #inner_table {
+        page-break-inside: auto;
+    }
+    
+    .style3 {font-size: small}
+.style48 {font-size: 12; }
+.style50 {font-family: Verdana}
+.style1 {   color: #0B6F10;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    /*letter-spacing: 1px;*/
+}
+.style2 {font-size: 12px}
+.style52 {color: #3E4EDD}
+.style4 {   color: #1E8E17;
+    font-size: 24px;
+}
+.style6 {color: #1E8E17}
+.style8 {color: #0B6F10}
+.style53 {font-size: 42px}
+.style54 {font-size: 14px}
+.style55 {color: #3E4EDD; font-size: 14px; }
+.style59 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style61 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small; }
+.style62 {font-size: small; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #000000; }
+.style67 {font-weight: bold}
+.style69 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small; font-weight: bold; }
+.style71 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small; color: #0B6F10; font-weight: bold; }
+.style73 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.style78 {font-size: 11px; font-weight: bold; }
+}
+
+#main_thead {
+    display: table-header-group;
+}
+
+tbody {
+    display: table-row-group;
+}
+
+#main_thead:after {
+    content: "-";
+    line-height: 0.5px;
+    color: transparent;
+}
+
+.style3 {font-size: small}
+.style48 {font-size: 12; }
+.style50 {font-family: Verdana}
+.style1 {   color: #0B6F10;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    /*letter-spacing: 1px;*/
+}
+.style2 {font-size: 14px}
+.style52 {color: #3E4EDD}
+.style4 {   color: #1E8E17;
+    font-size: 30px;
+}
+.style6 {color: #1E8E17}
+.style8 {color: #0B6F10}
+.style53 {font-size: 35px}
+.style54 {font-size: 16px}
+.style55 {color: #3E4EDD; font-size: 14px; }
+.style59 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style61 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small; }
+.style62 {font-size: small; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #000000; }
+.style67 {font-weight: bold}
+.style69 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small; font-weight: bold; }
+.style71 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small; color: #0B6F10; font-weight: bold; }
+.style73 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.style78 {font-size: 11px; font-weight: bold; }
+
+#qrcode {
+    letter-spacing: 30px;
+}
+
+/*body{
+    background-image: url("../images/uds_logo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}*/
+
+/*#print_trans {
+    background-image: url("../images/uds_logo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}*/
+
+#watermark {
+     position:absolute;
+     margin-left:  25%;
+     opacity:0.1;
+     z-index:99;
+     color:white;
+}

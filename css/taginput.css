@@ -1,0 +1,49 @@
+#tags{
+  padding:5px;
+}
+#tags > span{
+	border-style: outset;
+  display:block;
+  float:left;
+  color:rgba(0, 0, 0, 0.71);
+  background:rgba(128, 128, 128, 0.43);
+  padding:5px;
+  padding-right:25px;
+  margin:4px;
+}
+#tags > span:hover{
+  opacity:0.7;
+}
+
+#tags > span:focus{
+  border: darkslateblue;
+}
+
+#tags > span:after{
+ position: absolute;
+ cursor:pointer;
+ content: "x";
+ background: green;
+ color: #fff;
+ padding: 3px 5px;
+ margin-left: 4px;
+ font-size: 12px;
+ font-weight: bolder;
+}
+#tags > input{
+  margin:0;
+  padding:7px;
+  border:1px solid #e5e6e7;
+}
+
+input:focus {
+    outline: none ;
+}
+
+.focusTag {
+    border: solid 2px cornflowerblue;
+}
+.emailtag {
+    margin: auto;
+	
+}

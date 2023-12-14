@@ -1,0 +1,13 @@
+<?php
+require_once('../Db/connection.php');
+$sql = "SELECT * FROM tbl_sign WHERE status = 'Active' ";
+$rs = mysqli_query($conn, $sql);
+$data = array();
+
+if($rs) {
+    while($row = mysqli_fetch_assoc($rs)) {
+        $data[] = $row;
+    }
+}
+echo json_encode($data);
+?>

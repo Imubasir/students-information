@@ -1,0 +1,58 @@
+#ol {
+    list-style: none;
+    display: -webkit-flex;
+    border: 1px solid gray;
+    width: 90%;
+    position: relative;
+    /*    padding: 10px;*/
+    border-radius: 20px;
+    background-color: #fff;
+    float: center;
+    box-shadow: 2px 2px grey;
+    height: 35px;
+    margin-left: 7%;
+}
+
+#ol li {
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: 1px solid;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#ol li:hover {
+    border-bottom: 5px solid green;
+
+}
+
+.activeTab {
+    border-bottom: 5px solid green;
+}
+
+._card-header {
+    background-color: rgb(12, 60, 29);
+}
+
+#otherveriForm label {
+    font-weight: bold;
+}
+
+#editModal {
+    overflow-y:scroll;
+}
+
+#e_otherveriForm label {
+    font-weight: bold;
+}
+
+.modal-lgs {
+            width: 1050px;
+        }
+        #verify_modal .modal-dialog {
+            max-width: 1000px;
+            margin: 1.75rem auto;
+        }
